@@ -21,6 +21,16 @@ window.onload = function (){
 		});
 	}
 
+	let end = document.querySelector('#end');
+
+	end.addEventListener('mouseover' ,() =>{
+		if (count == 0){
+			document.querySelector('#status').innerHTML = "You Win";
+		}
+	});
+
+
+
 
 
 }
