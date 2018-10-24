@@ -29,6 +29,16 @@ window.onload = function (){
 		}
 	});
 
+	let start = document.querySelector("#start");
+
+	start.addEventListener('click' ,() =>{
+		document.querySelector('#status').textContent = "Press S to begin!!";
+		for(let s=0; s < boundary.length-1; s++){
+			boundary[s].setAttribute('class', 'boundary boundary');
+
+		}
+	});
+
 
 
 
